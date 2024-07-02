@@ -1,0 +1,82 @@
+
+body {
+    background-color: #f49030;
+    cursor: url("https://cur.cursors-4u.net/sports/spo-1/spo62.cur"), auto;
+
+}
+
+.p-3 {
+    padding: 9rem !important;
+}
+
+#mainDiv {
+    background-color: #3c3f4c;
+    cursor: url("https://cur.cursors-4u.net/sports/spo-1/spo62.cur"), auto;
+}
+
+.cover-container {
+    max-width: 100em;
+  }
+  
+
+h1 {
+    color: #ef863d;
+    text-align: center;
+    font-family: "Cookie";
+    font-size: 50px;
+    padding-top: 2%;
+}
+
+.feature_image img {
+    max-height: 480px;
+    height: 480px;
+    display: block;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    border-style: solid;
+    border-color: #f49030;
+    border-width: 3px;
+}
+
+::selection {
+    background: #35364a;
+}
+
+::-moz-selection {
+    background: #35364a;
+}
+
+
+.btn-container {
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.button {
+    background-color: #ef863d;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: url("https://cur.cursors-4u.net/sports/spo-1/spo62.cur"), auto;
+    font-family: "Dosis";
+}
+
+.button:hover {
+    background-color: #f3f0ee;
+    color: rgb(0, 0, 0);
+    cursor: url("https://cur.cursors-4u.net/sports/spo-1/spo62.cur"), auto;
+    font-family: "Dosis";
+
+
+}
