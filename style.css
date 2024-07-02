@@ -29,14 +29,10 @@ h1 {
 
 .feature_image img {
     max-height: 480px;
-    height: 480px;
-    display: block;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 img:hover {
@@ -79,4 +75,11 @@ img:hover {
     font-family: "Dosis";
 
 
+}
+
+@media (min-width: 768px) {
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: -webkit-fill-available;
+    }
 }
